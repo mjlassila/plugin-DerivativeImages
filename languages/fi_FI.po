@@ -1,0 +1,138 @@
+# Translation for the Dublin Core Extended plugin for Omeka.
+# Copyright (C) 2012 Roy Rosenzweig Center for History and New Media
+# This file is distributed under the same license as the Omeka package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DerivativeImages\n"
+"Report-Msgid-Bugs-To: http://github.com/omeka/plugin-DerivativeImages/"
+"issues\n"
+"POT-Creation-Date: 2014-03-01 12:25+0200\n"
+"POT-Creation-Date: 2014-03-01 12:35+0200\n"
+"Last-Translator: Matti Lassila <matti.lassila@gmail.com>\n"
+"Language-Team: Finnish (Finland) (http://www.transifex.com/projects/p/omeka/"
+"language/fi_FI/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fi_FI\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.7\n"
+"PO-Revision-Date: \n"
+
+#: controllers/IndexController.php:24
+msgid ""
+"Processing files. This may take a while. You may continue administering your "
+"site."
+msgstr ""
+"Käsitellään tiedostoja. Voit jatkaa samaan aikaan sivuston muita "
+"ylläpitotöitä."
+
+#: DerivativeImagesPlugin.php:33 models/DerivativeImagesJob.php:46
+msgid ""
+"The storage adapter is not an instance of Omeka_Storage_Adapter_Filesystem."
+msgstr ""
+"The storage adapter is not an instance of Omeka_Storage_Adapter_Filesystem."
+
+#: DerivativeImagesPlugin.php:38 models/DerivativeImagesJob.php:51
+msgid "The ImageMagick directory path is missing."
+msgstr "ImageMagick-asennushakemiston polku puuttuu."
+
+#: DerivativeImagesPlugin.php:65 views/admin/index/index.php:2
+msgid "Derivative Images"
+msgstr "Esikatselukuvat"
+
+#: views/admin/index/index.php:9
+#, php-format
+msgid ""
+"Omeka attempts to create fullsize, thumbnail, and square thumbnail "
+"derivative images when a file is added. This plugin recreates (or creates) "
+"derivative images according to the size constraints set in the %sAppearance "
+"settings%s. This plugin is useful if image sizes must change for a new "
+"theme, after upgrading from an earlier version of Omeka, or after your "
+"server's %sImageMagick%s software has been upgraded."
+msgstr ""
+"Aineistoja lisättäessä Omeka luo esikatselukuvat kuvista ja PDF-"
+"tiedostoista. Tarvittaessa esikatselukuvat voi luoda uudelleen, esimerkiksi "
+"jos kuvien mittasuhteita %sUlkoasuasetuksissa%s on muutettu tai palvelimen "
+"%sImageMagick%s -sovelluksen päivityksen jälkeen."
+
+#: views/admin/index/index.php:18
+msgid ""
+"Please note that Omeka is unable to create derivative images for some files. "
+"We highly recommend that you back up Omeka's files directory before running "
+"this process."
+msgstr ""
+"Omeka voi luoda esikatselukuvat vain tuettua muotoa oleviin tiedostoihin. "
+"Näitä ovat useimmat kuvatiedostotyypit, sekä tavallisimmat PDF-"
+"tiedostomuodot. Omekan files-hakemiston varmuuskopiointi on suositeltavaa "
+"ennen esikatselukuvien uudelleenluomista."
+
+#: views/admin/index/index.php:23
+msgid "Process type"
+msgstr "Käsiteltävät tiedostot"
+
+#: views/admin/index/index.php:26
+msgid "Select files for creating new derivative images."
+msgstr "Valitse tiedostot joille esikatselukuvat luodaan"
+
+#: views/admin/index/index.php:27
+msgid "All files"
+msgstr "Kaikki tiedostot"
+
+#: views/admin/index/index.php:28
+msgid "Files that have derivative images"
+msgstr "Kaikki tiedostot joilla on nykyinen esikatselukuva"
+
+#: views/admin/index/index.php:29
+msgid "Files that do not have derivative images"
+msgstr "Tiedostot joihin ei ole esikatselukuvia"
+
+#: views/admin/index/index.php:34
+msgid "Image sizes"
+msgstr "Kuvakoot"
+
+#: views/admin/index/index.php:38
+#, php-format
+msgid ""
+"Select which image sizes you want to create. Checking none will create all "
+"image sizes. (Sizes listed here are set in the %sAppearance settings%s.)"
+msgstr ""
+"Valitse esikatselukuvien kuvakoot. Ilman valintaa luodaan kaikki koot. "
+"(Kuvakoot määritetään %sUlkoasuasetuksissa%s.)"
+
+#: views/admin/index/index.php:41
+msgid "Fullsize"
+msgstr "Täysi koko"
+
+#: views/admin/index/index.php:41 views/admin/index/index.php:42
+#: views/admin/index/index.php:43
+msgid "pixels"
+msgstr "pikseliä"
+
+#: views/admin/index/index.php:42
+msgid "Thumbnail"
+msgstr "Esikatselukuva"
+
+#: views/admin/index/index.php:43
+msgid "Square thumbnail"
+msgstr "Neliöity esikatselukuva"
+
+#: views/admin/index/index.php:48
+msgid "MIME types"
+msgstr "MIME-tyypit"
+
+#: views/admin/index/index.php:52
+msgid ""
+"Select which file MIME types you want to process. Checking none will process "
+"all MIME types. (This list represents every MIME type currently available in "
+"this Omeka site.)"
+msgstr ""
+"Valitse mitä tiedostomuotoja käsitellään. Ilman valintaa käsitellään kaikki "
+"tiedostomuodot. Lista sisältää kaikki tällä hetkellä käytössä olevat "
+"tiedostomuodot."
+
+#: views/admin/index/index.php:63
+msgid "Process Files"
+msgstr "Käsittele tiedostot"
